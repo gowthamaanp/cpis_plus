@@ -1,0 +1,18 @@
+# Never commit data, derived patient-level tables, or trained artifacts:
+# MIMIC-IV, MIMIC-CXR and SCRIPT/CarpeDiem are credentialed PhysioNet datasets
+# whose data use agreements forbid redistribution of the data or derivatives.
+data/
+reports/
+models/
+logs/
+*.parquet
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pt
+*.csv.gz
+*.log
+__pycache__/
+*.pyc
+.DS_Store

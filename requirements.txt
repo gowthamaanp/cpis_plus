@@ -1,0 +1,7 @@
+# Versions used to produce the reported results (Python 3.8.10)
+numpy==1.24.4
+pandas==2.0.3
+pyarrow==17.0.0
+scikit-learn==1.3.2
+imbalanced-learn==0.12.4
+lightgbm==4.6.0
